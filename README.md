@@ -19,3 +19,5 @@
  Encompass the entire contents of the benchmark data in [ ] to comply by json formatting
  
  Set X axis to Index, then add the value fields of AvgPlayerCount, AvgFrameTimeTicks, and FrameTimeTicksPeak
+
+ Data is logged every tick, and averages are written every 30 seconds. So every point plotted will be in 30 second intervals
