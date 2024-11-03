@@ -16,8 +16,7 @@
  and the frametime data will be handled by VProf in the console log 
 
 # Graphing
- To graph this data, I use https://jsontochart.com/
- 
- Encompass the entire contents of the benchmark data in [ ] to comply by json formatting
- 
- Set X axis to Index, then add the rest as value fields
+ To graph this data, I created [pyBenchChart](https://github.com/rcnoob/pyBenchChart)
+
+# Images (using pyBenchChart)
+![linear](https://github.com/rcnoob/pyBenchChart/blob/main/l0.png)
