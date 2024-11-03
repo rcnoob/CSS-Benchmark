@@ -4,20 +4,20 @@
 # Installation
  Simply drag and drop the plugin into your plugins folder for CS# (v284+)
 
+# Configuration
+ Set the LogInterval in ms
+
 # Usage
- After installing, restart your server to freshly initialize the benchmark.
- 
- Allow the server to run
- 
- Once finished, disable the plugin by either deleting it or creating a "disabled" folder, then drag into there
- 
- Your benchmark data will be stored in /game/csgo/benchmark/benchmark-{currentTime}.json
+ Use `css_startbenchmark` to start logging data
+
+ Use `css_stopbenchmark` to stop logging data
+
+ The memory and player count data will be stored in /game/csgo/benchmark/benchmark-{currentTime}.json
+ and the frametime data will be handled by VProf in the console log 
 
 # Graphing
  To graph this data, I use https://jsontochart.com/
  
  Encompass the entire contents of the benchmark data in [ ] to comply by json formatting
  
- Set X axis to Index, then add the value fields of AvgPlayerCount, AvgFrameTimeTicks, and FrameTimeTicksPeak
-
- Data is logged every tick, and averages are written every 30 seconds. So every point plotted will be in 30 second intervals
+ Set X axis to Index, then add the rest as value fields
