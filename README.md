@@ -2,7 +2,7 @@
  A CS# Benchmark Plugin
 
 # Installation
- Simply drag and drop the plugin into your plugins folder for CS# (v284+)
+ Simply drag and drop the addons folder into your server game directory
 
 # Configuration
  Set the LogInterval in ms
